@@ -22,8 +22,8 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
   background-color: white;
-  width: 60%;
-  height: 60%;
+  width: 1100px;
+  height: 800px;
   border-radius: 30px;
   display: flex;
   box-shadow: 0 0 30px #4d6468;
@@ -68,7 +68,7 @@ form {
   justify-content: space-between;
 }
 .label {
-  font-size: 21px;
+  font-size: 19px;
 }
 .input-box {
   width: 100%;
@@ -76,8 +76,8 @@ form {
   border-radius: 10px;
   border: none;
   background-color: #f0f0f0;
-  padding: 20px;
-  font-size: 17px;
+  padding: 18px;
+  font-size: 16px;
 }
 .section {
   display: flex;
@@ -87,7 +87,7 @@ form {
 .label2 {
   display: flex;
   gap: 8px;
-  font-size: 16px;
+  font-size: 15px;
 }
 span {
   color: #d9c77f;
@@ -101,5 +101,5 @@ span {
 }
 
 .checkbox:checked {
-  background: red;
+  background: black;
 }
